@@ -1,0 +1,46 @@
+.card-stars{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.price{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.card-btn{
+    display: flex;
+}
+.title{
+    font-size: 23px;
+}
+.card2-btn{
+    width: 120px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.card-icon{
+    vertical-align: middle;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.card-icon :hover{
+    color: red;
+}
+.card2-img{
+    width: 150px;
+    height: 135px;
+    object-fit: cover;
+    margin-left: 55px;
+    cursor: pointer;
+    transition: 3s;
+    margin-bottom: 13px;
+}
+.card2-img:hover{
+    transform: scale(1.1);
+}
